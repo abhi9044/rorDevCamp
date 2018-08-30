@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  devise_for :views
   resources :portfolios
   get "about", to: "pages#about"
   get 'pages/contact'

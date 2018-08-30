@@ -55,3 +55,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #for permalinks
 gem 'friendly_id', '~> 5.2.0'
+gem 'devise', '~> 4.5'
